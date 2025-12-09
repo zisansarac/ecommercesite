@@ -1,4 +1,4 @@
-namespace ecommerce.api.Models
+namespace Ecommerce.api.Models
 {
     public class Order {
          public int Id {get;set;}
