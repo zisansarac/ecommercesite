@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\ecommerce.api\\ecommerce.api.csproj": {}
+    "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\Ecommerce.api\\ecommerce.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\ecommerce.api\\ecommerce.api.csproj": {
+    "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\Ecommerce.api\\ecommerce.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\ecommerce.api\\ecommerce.api.csproj",
+        "projectUniqueName": "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\Ecommerce.api\\ecommerce.api.csproj",
         "projectName": "ecommerce.api",
-        "projectPath": "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\ecommerce.api\\ecommerce.api.csproj",
+        "projectPath": "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\Ecommerce.api\\ecommerce.api.csproj",
         "packagesPath": "C:\\Users\\sarac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\ecommerce.api\\obj\\",
+        "outputPath": "C:\\Users\\sarac\\OneDrive\\Belgeler\\GitHub\\ecommercesite\\backend\\Ecommerce.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sarac\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[10.0.0, )"
             },
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[10.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -70,9 +66,13 @@
               "target": "Package",
               "version": "[8.15.0, )"
             },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.14, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
